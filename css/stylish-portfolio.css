@@ -17,6 +17,9 @@ body {
     font-family: "Raleway",sans-serif;
     color:#26bced;
 }
+.adjustTextTop {
+    vertical-align: top;
+}
 .details {
     color:#999;
 }
