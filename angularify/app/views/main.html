@@ -1,23 +1,36 @@
-<div class="jumbotron">
-  <h1>'Allo, 'Allo!</h1>
-  <p class="lead">
-    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
-    Always a pleasure scaffolding your apps.
-  </p>
-  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p>
-</div>
+<header class="header">
+    <div class="text-vertical-center-title2">
+        <h2 class='text-vertical-center-title1'>Brett Cullen</h2>
 
-<div class="row marketing">
-  <h4>HTML5 Boilerplate</h4>
-  <p>
-    HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.
-  </p>
+        <h2 class='text-vertical-center-title2'>Web Developer & GIS Analyst</h2>
+        <br>
+        <ul class="list-inline">
+            <li>
+                <a href="https://github.com/Brett55"><i class="fa fa-github fa-fw fa-2x gitHubLinkedInTwitter"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/Brett_Culln"><i class="fa fa-twitter fa-fw fa-2x gitHubLinkedInTwitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/pub/brett-cullen/b0/b89/1b0"><i
+          class="fa fa-linkedin-square fa-fw fa-2x gitHubLinkedInTwitter"></i></a>
+            </li>
+        </ul>
+        </br>
+        <a ui-sref=".intro" class="btn btn-dark btn-lg">More...</a>
+    </div>
+</header>
 
-  <h4>Angular</h4>
-  <p>
-    AngularJS is a toolset for building the framework most suited to your application development.
-  </p>
-
-  <h4>Karma</h4>
-  <p>Spectacular Test Runner for JavaScript.</p>
+<!-- About -->
+<div class="container">
+    <section id="about" class="about">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <br>
+                <br>
+                <br>
+                <ui-view></ui-view>
+            </div>
+        </div>
+    </section>
 </div>

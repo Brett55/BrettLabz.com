@@ -8,10 +8,6 @@
  * Controller of the angularifyApp
  */
 angular.module('angularifyApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+    .controller('MainCtrl', function($scope, $state) {
+        $state.go('main.intro');
+    });
