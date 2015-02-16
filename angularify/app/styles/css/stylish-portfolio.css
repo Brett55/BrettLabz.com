@@ -23,6 +23,9 @@ body {
 .details {
     color:#999;
 }
+.toggle {
+    width:100px;
+}
 
 .gitHubLinkedInTwitter {
     color:white;
@@ -319,9 +322,10 @@ hr.small {
         height: 75%;
     }
 }
-
 /* Footer */
-
-footer {
-    padding: 0;
+.footer {
+    position: relative;
+    margin-top:100px;
+    width: 100%;
+  /* Set the fixed height of the footer here */
 }

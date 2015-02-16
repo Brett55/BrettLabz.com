@@ -17,20 +17,17 @@
             </li>
         </ul>
         </br>
-        <a ui-sref=".intro" class="btn btn-dark btn-lg">More...</a>
+        <a ng-show="id" ng-click="lessInfo()" class="toggle btn btn-dark btn-lg">Previous</a>
+        <a ng-show="!id" ng-click="moreInfo()" class="toggle btn btn-dark btn-lg">More...</a>
+        <a ng-show="id" ng-click="moreInfo()" class="toggle btn btn-dark btn-lg">Next</a>
     </div>
 </header>
 
 <!-- About -->
 <div class="container">
-    <section id="about" class="about">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <br>
-                <br>
-                <br>
-                <ui-view></ui-view>
-            </div>
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <ui-view></ui-view>
         </div>
-    </section>
+    </div>
 </div>
