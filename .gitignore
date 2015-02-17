@@ -3,3 +3,6 @@ node_modules
 .idea
 .htaccess
 .ftpquota
+.tmp
+.sass-cache
+dist
