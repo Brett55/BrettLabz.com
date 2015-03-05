@@ -23,7 +23,8 @@ angular
       .state('main', {
         url: '/',
         templateUrl: 'views/main.html',
-        controller: 'MainCtrl'
+        controller: 'MainCtrl',
+        controllerAs: 'mainCtrl'
       })
       .state('main.0', {
         url: 'intro',

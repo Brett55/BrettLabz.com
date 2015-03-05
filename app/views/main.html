@@ -17,9 +17,9 @@
       </li>
     </ul>
     <br>
-    <a ng-show="id" ng-click="id = lessInfo(id)" class="toggle btn btn-dark btn-lg">Previous</a>
-    <a ng-show="!id" ng-click="id = moreInfo(id)" class="toggle btn btn-dark btn-lg">More...</a>
-    <a ng-show="id" ng-click="id = moreInfo(id)" class="toggle btn btn-dark btn-lg">Next</a>
+    <a ng-show="mainCtrl.id" ng-click="mainCtrl.id = mainCtrl.lessInfo(mainCtrl.id)" class="toggle btn btn-dark btn-lg">Previous</a>
+    <a ng-show="!mainCtrl.id" ng-click="mainCtrl.id = mainCtrl.moreInfo(mainCtrl.id)" class="toggle btn btn-dark btn-lg">More...</a>
+    <a ng-show="mainCtrl.id" ng-click="mainCtrl.id = mainCtrl.moreInfo(mainCtrl.id)" class="toggle btn btn-dark btn-lg">Next</a>
   </div>
 </header>
 

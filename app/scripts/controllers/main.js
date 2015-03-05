@@ -10,9 +10,10 @@
 angular.module('angularifyApp')
   .controller('MainCtrl', function ($scope, $state, $stateParams, swapInfo) {
     $state.go('main.0');
-    $scope.id = 0;
-    $scope.moreInfo = swapInfo.moreInfo;
-    $scope.lessInfo = swapInfo.lessInfo;
+    var mainCtrl = this;
+    mainCtrl.id = 0;
+    mainCtrl.moreInfo = swapInfo.moreInfo;
+    mainCtrl.lessInfo = swapInfo.lessInfo;
   })
   .service('swapInfo', function($state) {
     this.moreInfo = function (id) {
